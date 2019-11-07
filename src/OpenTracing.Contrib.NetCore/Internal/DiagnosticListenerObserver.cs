@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using Microsoft.Extensions.Logging;
-using OpenTracing.Contrib.NetCore.Configuration;
 
 namespace OpenTracing.Contrib.NetCore.Internal
 {
-
-    internal abstract class DiagnosticListenerObserver : DiagnosticObserver, IObserver<KeyValuePair<string, object>>
+    public abstract class DiagnosticListenerObserver : DiagnosticObserver, IObserver<KeyValuePair<string, object>>
     {
         private readonly GenericEventProcessor _genericEventProcessor;
 
