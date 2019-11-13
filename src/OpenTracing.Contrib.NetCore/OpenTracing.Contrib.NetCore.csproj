@@ -2,9 +2,11 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Authors>JeffreyZhang</Authors>
     <Description>Adds OpenTracing instrumentation for .NET Core apps that use the `Microsoft.Extensions.*` stack.
 Instrumented components: HttpClient calls, ASP.NET Core, Entity Framework Core and any other library that uses DiagnosticSource events.</Description>
-    <PackageTags>opentracing;distributed-tracing;tracing;netstandard</PackageTags>
+    <PackageTags>opentracing;distributed-tracing;tracing;</PackageTags>
+    <Version>0.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
